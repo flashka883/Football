@@ -106,6 +106,12 @@ public class Game
     public string Result { get; set; }
     public Team Winner { get; set; }
 
+    public Game()
+    {
+        Result = "0-0";
+        Winner = null;
+    }
+
     public void CalculateResult()
     {
         int team1Goals = 0;
@@ -136,12 +142,10 @@ public class Program
     {
         try
         {
-            var coach = new Coach { Name = "Coach", Age = 40 };
-
             var teamA = new Team
             {
                 Name = "CSKA",
-                Coach = coach,
+                Coach = new Coach { Name = "Coach A", Age = 49 },
                 Players = new FootballPlayer[]
                 {
                     new Goalkeeper { Name = "Player 1", Number = 1, Age = 25, Height = 1.9 },
@@ -162,7 +166,7 @@ public class Program
             var teamB = new Team
             {
                 Name = "Levski",
-                Coach = coach,
+                Coach = new Coach { Name = "Coach B", Age = 40 },
                 Players = new FootballPlayer[]
                 {
                     new Goalkeeper { Name = "Player 1", Number = 1, Age = 25, Height = 1.9 },
@@ -229,8 +233,6 @@ public class Program
                     new Goal { Minute = 14, Player = teamB.Players[0] },
                     new Goal { Minute = 23, Player = teamA.Players[0] },
                 },
-                Result = "2-1",
-                Winner = teamA
             };
 
             Console.WriteLine($"{teamA.Name} average player age: {teamA.GetAveragePlayerAge()}");
@@ -241,7 +243,8 @@ public class Program
             Console.WriteLine($"Game result: {game.Result}");
             Console.WriteLine($"Winner: {game.Winner.Name}");
 
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             Console.WriteLine(e.Message);
         }
