@@ -1,0 +1,15 @@
+/Users/stamenvladimirov/Projects/Football/Football/bin/Debug/net7.0/Football
+/Users/stamenvladimirov/Projects/Football/Football/bin/Debug/net7.0/Football.deps.json
+/Users/stamenvladimirov/Projects/Football/Football/bin/Debug/net7.0/Football.runtimeconfig.json
+/Users/stamenvladimirov/Projects/Football/Football/bin/Debug/net7.0/Football.dll
+/Users/stamenvladimirov/Projects/Football/Football/bin/Debug/net7.0/Football.pdb
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.csproj.AssemblyReference.cache
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.AssemblyInfoInputs.cache
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.AssemblyInfo.cs
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.csproj.CoreCompileInputs.cache
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.dll
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/refint/Football.dll
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.pdb
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/Football.genruntimeconfig.cache
+/Users/stamenvladimirov/Projects/Football/Football/obj/Debug/net7.0/ref/Football.dll
